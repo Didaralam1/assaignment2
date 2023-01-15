@@ -8,7 +8,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* ================== header section ============= */
+/* ================== Header section ============= */
 
 header {
     background: #ff900e1a;
@@ -67,32 +67,38 @@ nav h2 {
 }
 
 /* ================= Features section ============= */
-.features-section{
+.features-section {
     display: flex;
     text-align: center;
     margin: 100px 240px;
     gap: 90px;
 }
-.features-photo{
+
+.features-photo {
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
     margin-top: 80px;
 }
-.features-text{
+
+.features-text {
     text-align: left;
     margin-top: 280px;
 }
-.features-text-title{
+
+.features-text-title {
     font-size: 45px;
 }
-.featuares-title-first-two-words{
+
+.featuares-title-first-two-words {
     color: #727272;
 }
-.features-title-last-word{
+
+.features-title-last-word {
     color: #FF900E;
 }
-.features-text-description{
+
+.features-text-description {
     font-size: 16px;
     color: #727272;
     margin-top: 30px;
@@ -101,43 +107,51 @@ nav h2 {
 
 /*==================== Experiance Section ====================== */
 
-.experience-section{
+.experience-section {
     display: flex;
     gap: 80px;
     margin-top: 130px;
 }
-.experience-top-section{
+
+.experience-top-section {
     margin-left: 240px;
 
 }
-.experience-top-section-title{
+
+.experience-top-section-title {
     font-size: 45px;
     border-left: 5px solid #FF900E;
 }
-.experience-top-section-description{
+
+.experience-top-section-description {
     font-size: 16px;
     color: #727272;
     margin-top: 25px;
     margin-bottom: 60px;
 }
-.experience-bottom-section{
+
+.experience-bottom-section {
     margin-left: 270px;
 }
-.experience-bottom-section-title{
+
+.experience-bottom-section-title {
     font-size: 22px;
     margin-bottom: 15px;
 
 }
-.experience-bottom-section-description{
+
+.experience-bottom-section-description {
     font-size: 16px;
     color: #727272;
     margin-bottom: 80px;
 
 }
-.img-and-btn{
+
+.img-and-btn {
     display: grid;
 }
-.experience-section-btn{
+
+.experience-section-btn {
     font-size: 20px;
     color: #ffffff;
     background-color: #FF900E;
@@ -147,24 +161,93 @@ nav h2 {
     height: 160px;
 }
 
-.experience-section-btn span{
+.experience-section-btn span {
     font-size: 65px;
 }
+
 /* ==================   Facts-section =================*/
 
-.facts-section{
+.facts-section {
     margin-top: 200px;
+    margin-left: 240px;
 }
-.fects-section-title{
+
+.fects-section-title {
     font-size: 45px;
 }
-.fects-section-description{
+
+.fects-section-description {
     font-size: 16px;
     color: #727272;
+    margin-top: 25px;
+    margin-bottom: 110px;
 }
-.facts-items{
+
+.facts-items {
     display: flex;
 }
-.facts-details{
+
+.facts-details p span {
+    font-size: 45px;
+    color: #424242;
+}
+
+.facts-details {
+    text-align: center;
+    border: 2px solid #FF900E;
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    margin-bottom: 200px;
+    padding: 25px 25px;
 
 }
+
+/* ====================== Sponspors-section===================== */
+
+.sponspors-section {
+    width: 1920px;
+    height: 322px;
+    text-align: center;
+}
+
+.sponspors-text {}
+
+.sponspors-title {
+    font-size: 45px;
+
+}
+
+.sponspors-description {
+    color: #727272;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+
+}
+
+.sponspors {
+    display: flex;
+    gap: 110px;
+    margin-left: 240px;
+}
+
+/* =================== Footer section ====================*/
+
+footer {
+    background-color: #FFF4E7;
+    width: 1400px;
+    height: 100px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    margin-left: 240px;
+    border-radius: 8px;
+}
+
+h5 {
+    color: #424242;
+    font-size: 18px;
+    padding: 40px 400px;
+}
+
+/* ==============================-------================================= */
