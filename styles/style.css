@@ -190,6 +190,7 @@ nav h2 {
 
 .facts-items {
     display: flex;
+
 }
 
 .facts-details p span {
@@ -205,8 +206,8 @@ nav h2 {
     margin-left: 70px;
     margin-bottom: 200px;
     padding: 25px 25px;
-
 }
+
 
 /* ====================== Sponspors-section===================== */
 
@@ -216,7 +217,6 @@ nav h2 {
     text-align: center;
 }
 
-.sponspors-text {}
 
 .sponspors-title {
     font-size: 45px;
