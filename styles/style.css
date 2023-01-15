@@ -120,7 +120,8 @@ nav h2 {
 
 .experience-top-section-title {
     font-size: 45px;
-    border-left: 5px solid #FF900E;
+    border-left: 7px solid #FF900E;
+    padding-left: 20px;
 }
 
 .experience-top-section-description {
@@ -148,6 +149,9 @@ nav h2 {
 }
 
 .img-and-btn {
+    background-image: url(../images/architect.png);
+    width: 708px;
+    height: 982px;
     display: grid;
 }
 
@@ -159,6 +163,7 @@ nav h2 {
     border-radius: 8px;
     width: 300px;
     height: 160px;
+    margin-top: 880px;
 }
 
 .experience-section-btn span {
@@ -250,4 +255,10 @@ h5 {
     padding: 40px 400px;
 }
 
-/* ==============================-------================================= */
+/* ============================== Responsive for Mobile ================================= */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
